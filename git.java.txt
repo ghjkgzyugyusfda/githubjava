@@ -1,1 +1,9 @@
-printf("Hello world")
+public class JavaProject {
+public void javaProgram() {
+System.out.println("Hello world");
+}
+public static void main(String [] args) {
+JavaProject jp = new JavaProject();
+jp.javaProgram();
+}
+}
